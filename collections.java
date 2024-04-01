@@ -9,7 +9,7 @@ import java.io.File;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-public class  collections{
+public class  Collections{
     public static void main(String[] args) {
         //Queue
         LinkedList<String> names = new LinkedList<>();

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class copy  {
+public class Copy  {
     public static void main(String[] args) {
         
     }

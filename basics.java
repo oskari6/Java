@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class basics {
+public class Basics {
 
     public static void main(String[] args) { //method
         System.out.println("What is your name?");
