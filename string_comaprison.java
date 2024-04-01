@@ -13,9 +13,9 @@ public class string_comaprison {
 
         System.out.println(password == guess);
 
-        String a = "hi";
-        String b = "hi";
-        System.out.println(a == b); //interned, some sort of caching
+        //String a = "hi";
+        //String b = "hi";
+        //System.out.println(a == b); //interned, some sort of caching
         //counter with this below
         String a = new String("hi");
         String b = new String("hi");

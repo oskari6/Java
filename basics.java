@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class basics {
@@ -21,12 +22,15 @@ public class basics {
 
         System.out.println(x);
         System.out.println(y);
+
+        String[] grades = new String[1];
+        System.out.println(Arrays.deepToString(grades)); //check array in arrays
+        Arrays.parallelSort(grades); //large arrays
     }
-    //public String x = new String("hello");
+    public String x = new String("hello");
 }
 
 //primitive types
-//objects - instance of a class (calss the data type)
 
 //statically typed = variables are given data types up front
 //dynamically typed = variables do not have data types

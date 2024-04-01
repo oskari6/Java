@@ -12,11 +12,12 @@ public class first{
             {
                   line = kb.nextLine();
                  System.out.println(line);
-             }
+            }
+             kb.close();
         }
         catch(FileNotFoundException fnf)
-          {
-              System.out.println("File not found " + fnf);
-          }
+        {
+            System.out.println("File not found " + fnf);
         }
+    }
 }
